@@ -1,4 +1,5 @@
 #include "CCollision.h"
+#include <math.h>
 
 // “_‚ÆŽlŠpŒ`
 bool Collision::IsHit(const VECTOR& dotPos, const BOX& box)
@@ -11,14 +12,14 @@ bool Collision::IsHit(const VECTOR& dotPos, const BOX& box)
 }
 
 // “_‚Æ‰~
-bool Collision::IsHit(const VECTOR& dotPos, const CIRCLE& circle)
+bool Collision::IsHit(const VECTOR& dotPos, const CIRCLE& b)
 {
-	return (
-		dotPos.x >= circle.Radius &&
-		dotPos.x <= circle.Radius &&
-		dotPos.y >= circle.Radius &&
-		dotPos.y <= circle.Radius
-		);
+	float dx = dotPos.x - b.Pos.x;
+	float dy = dotPos.y - b.Pos.y;
+
+	float distance = sqrt(dx * dx + dy * dy);
+
+	return distance <= b.Radius;
 }
 
 // ŽlŠpŒ`“¯Žm

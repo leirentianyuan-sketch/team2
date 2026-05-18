@@ -22,5 +22,13 @@ private:
 
 	VECTOR m_pos;
 
+	int m_hndl;
+
+	VECTOR m_hndlPos;
+
+	const float halfX = 128.0f / 2;
+
 	Mouse_Operation mouse;
+
+	CIRCLE l;
 };

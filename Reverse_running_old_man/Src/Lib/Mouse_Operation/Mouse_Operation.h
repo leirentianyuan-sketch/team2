@@ -16,7 +16,7 @@ public:
 	void Hold( VECTOR &pos, int size_X, int size_y);
 
 	//‰½”Ô–Ú‚Ì•¨‘Ì‚Æƒ}ƒEƒX‚ª“–‚½‚Á‚½‚©‚Ç‚¤‚©‚ð”»’f‚·‚é
-	bool IsHitObject(const VECTOR& pos, int size_X, int size_y);
+	bool IsHitButton(const VECTOR& pos, CIRCLE& b);
 
 	void ComHold(BOX& box, int id);
 

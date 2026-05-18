@@ -21,4 +21,10 @@ private:
 
 	VECTOR m_pos;
 
+	const float halfX = 128.0f / 2;
+
+	const float halfY = 128.0f / 2;
+
+	//CIRCLE l;
+
 };

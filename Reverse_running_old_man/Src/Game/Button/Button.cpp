@@ -1,6 +1,8 @@
 #include "Button.h"
+#include "../Mouse/Mouse.h"
 #include "../../common.h"
 #include "../../Lib/Collision/CCollision.h"
+#include "../../Lib/Mouse_Operation/Mouse_Operation.h"
 
 static const char hndl_Pas[] = { "Data/Images/Game/don.webp" };
 
@@ -20,7 +22,7 @@ void Button::Load()
 
 void Button::Step()
 {
-	
+	/*l = { m_pos, halfX };*/
 }
 
 void Button::Draw()
