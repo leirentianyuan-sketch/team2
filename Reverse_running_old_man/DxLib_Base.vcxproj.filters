@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{f34403c2-a530-45dc-849d-0c543de24561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib">
+      <UniqueIdentifier>{3052fa9d-3c74-4ec0-b5d4-83798109de96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Frame">
+      <UniqueIdentifier>{c413424e-1338-47a1-9715-a84e19176aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Collision">
+      <UniqueIdentifier>{b44e8895-ccd2-4116-a4b8-054cf0ffb8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Fade">
+      <UniqueIdentifier>{9bf9aedb-aeeb-4b3f-adfa-e047db75c27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Func">
+      <UniqueIdentifier>{6350d425-84a3-4ae1-adf1-be5bf9e8e091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Input">
+      <UniqueIdentifier>{26f665fc-c418-4fa0-8309-95cc14875294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scene">
+      <UniqueIdentifier>{8082d768-6c91-461a-b820-a9fc95518f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scene\Title">
+      <UniqueIdentifier>{91ac0784-2fdf-485d-bf4d-83c6dbb8744a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scene\Game">
+      <UniqueIdentifier>{a67cd49a-2f39-440b-bd18-3b0ed3bab446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scene\Result">
+      <UniqueIdentifier>{0f6e59e9-2791-4752-842e-9caeae19db4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\File">
+      <UniqueIdentifier>{744fa52c-2e1c-4f67-a478-d35e7c3f93d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Lib\Frame\CFrame.cpp">
+      <Filter>src\Lib\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Lib\Collision\CCollision.cpp">
+      <Filter>src\Lib\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Lib\Fade\CFade.cpp">
+      <Filter>src\Lib\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Lib\Func\CFunc.cpp">
+      <Filter>src\Lib\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Lib\Input\CInput.cpp">
+      <Filter>src\Lib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\CSceneManager.cpp">
+      <Filter>src\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\Title\CSceneTitle.cpp">
+      <Filter>src\Game\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\Result\CSceneResult.cpp">
+      <Filter>src\Game\Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\Game\CSceneGame.cpp">
+      <Filter>src\Game\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Lib\File\CFile.cpp">
+      <Filter>src\Lib\File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Lib\Frame\CFrame.h">
+      <Filter>src\Lib\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Lib\Collision\CCollision.h">
+      <Filter>src\Lib\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Lib\Fade\CFade.h">
+      <Filter>src\Lib\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Lib\Func\Func.h">
+      <Filter>src\Lib\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Lib\Input\CInput.h">
+      <Filter>src\Lib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\CSceneManager.h">
+      <Filter>src\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\Title\CSceneTitle.h">
+      <Filter>src\Game\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\Result\CSceneResult.h">
+      <Filter>src\Game\Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\Game\CSceneGame.h">
+      <Filter>src\Game\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Lib\File\CFile.h">
+      <Filter>src\Lib\File</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
