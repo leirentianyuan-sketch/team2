@@ -2,10 +2,16 @@
 #include "../../../common.h"
 #include "../../../Lib/Fade/CFade.h"
 #include "../../../Lib/Input/CInput.h"
-#include "../../../Game/Object/UI/CUI.h"
+
+// ’Ç‰Á‚Ìinclude==============
+#include "../../Mouse/Mouse.h"
+#include "../../Button/Button.h"
 
 
 const char kari[] = { "Data/Images/Title/Title_Road.png" };
+
+Mouse mouse;
+Button button;
 
 int SceneGame::Update()
 {
@@ -15,17 +21,22 @@ int SceneGame::Update()
 	{
 	case SceneGame::GAMESCENE_INIT:
 		
+		mouse.Init();
+		button.Init();
+
 		m_hndl = -1;
 
 		m_state = GAMESCENE_LOAD;
 		break;
 	case SceneGame::GAMESCENE_LOAD:
+
+		button.Load();
 		
 		if (m_hndl == -1)
 		{
 			m_hndl = LoadGraph(kari);
 		}
-
+		
 		Fade::RequestFadeIn();
 
 		m_state = GAMESCENE_START;
@@ -39,6 +50,9 @@ int SceneGame::Update()
 
 		break;
 	case SceneGame::GAMESCENE_MAIN:
+
+		mouse.Step();
+		button.Step();
 
 		if (KEYINPUT::IsPushTrg(KEY_SPACE))
 		{
@@ -71,6 +85,8 @@ int SceneGame::Update()
 			m_hndl = -1;
 		}
 
+		button.Exit();
+
 		m_state = GAMESCENE_INIT;
 		
 		ret = 1;
@@ -88,7 +104,8 @@ void SceneGame::Draw()
 	case SceneGame::GAMESCENE_ENDWAIT:
 		
 		DrawRotaGraph(0.0f, 0.0f, 1.0f, 0.0f, m_hndl, TRUE);
-
+		mouse.Draw();
+		button.Draw();
 
 		break;
 	}

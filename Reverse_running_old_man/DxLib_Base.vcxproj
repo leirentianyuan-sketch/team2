@@ -130,6 +130,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Src\Game\Button\Button.cpp" />
+    <ClCompile Include="Src\Game\Mouse\Mouse.cpp" />
     <ClCompile Include="Src\Game\Scene\CSceneManager.cpp" />
     <ClCompile Include="Src\Game\Scene\Game\CSceneGame.cpp" />
     <ClCompile Include="Src\Game\Scene\Result\CSceneResult.cpp" />
@@ -140,10 +142,13 @@
     <ClCompile Include="Src\Lib\Frame\CFrame.cpp" />
     <ClCompile Include="Src\Lib\Func\CFunc.cpp" />
     <ClCompile Include="Src\Lib\Input\CInput.cpp" />
+    <ClCompile Include="Src\Lib\Mouse_Operation\Mouse_Operation.cpp" />
     <ClCompile Include="Src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\common.h" />
+    <ClInclude Include="Src\Game\Button\Button.h" />
+    <ClInclude Include="Src\Game\Mouse\Mouse.h" />
     <ClInclude Include="Src\Game\Scene\CSceneManager.h" />
     <ClInclude Include="Src\Game\Scene\Game\CSceneGame.h" />
     <ClInclude Include="Src\Game\Scene\Result\CSceneResult.h" />
@@ -154,6 +159,7 @@
     <ClInclude Include="Src\Lib\Frame\CFrame.h" />
     <ClInclude Include="Src\Lib\Func\Func.h" />
     <ClInclude Include="Src\Lib\Input\CInput.h" />
+    <ClInclude Include="Src\Lib\Mouse_Operation\Mouse_Operation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

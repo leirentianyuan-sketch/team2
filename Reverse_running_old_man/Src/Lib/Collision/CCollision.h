@@ -25,7 +25,10 @@ public:
 	//	CIRCLE		:	円の構造体 {座標, 半径}
 
 	//	点と四角の当たり判定
-	static bool IsHit(const VECTOR& dotPos, const BOX& box);		
+	static bool IsHit(const VECTOR& dotPos, const BOX& box);	
+
+	//	点と円の当たり判定
+	static bool IsHit(const VECTOR& dotPos, const CIRCLE& circle);
 	
 	//	四角同士の当たり判定
 	static bool IsHit(const BOX& a, const BOX& b);

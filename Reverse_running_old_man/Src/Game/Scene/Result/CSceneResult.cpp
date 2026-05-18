@@ -3,7 +3,6 @@
 #include "../../../Lib/Fade/CFade.h"
 #include "../../../Lib/File/CFile.h"
 #include "../../../Lib/Input/CInput.h"
-#include "../../../Game/Object/UI/CUI.h"
 
 static const char kari[][128] = {
 	"Data/Images/Result/result.jpg" };

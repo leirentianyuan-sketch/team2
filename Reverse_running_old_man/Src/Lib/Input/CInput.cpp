@@ -10,22 +10,23 @@ void KEYINPUT::Update()
 
 	m_nowkey = 0;
 
-	//int mouse = GetMouseInput();
+	int mouse = GetMouseInput();
 
-	////	マウスの入力判定
-	//if ((mouse & MOUSE_INPUT_LEFT) != 0)
-	//{
-	//	m_nowkey |= KEY_LCLICK;
-	//}
-	//if ((mouse & MOUSE_INPUT_RIGHT) != 0)
-	//{
-	//	m_nowkey |= KEY_RCLICK;
-	//}
-	//if ((mouse & MOUSE_INPUT_MIDDLE) != 0)
-	//{
-	//	m_nowkey |= KEY_HCLICK;
-	//}
-	//	キーボードの入力判定
+	//	マウスの入力判定
+	if ((mouse & MOUSE_INPUT_LEFT) != 0)
+	{
+		m_nowkey |= KEY_LCLICK;
+	}
+	if ((mouse & MOUSE_INPUT_RIGHT) != 0)
+	{
+		m_nowkey |= KEY_RCLICK;
+	}
+	if ((mouse & MOUSE_INPUT_MIDDLE) != 0)
+	{
+		m_nowkey |= KEY_HCLICK;
+	}
+
+	// キーボードの入力判定
 	if (CheckHitKey(KEY_INPUT_SPACE))
 	{
 		m_nowkey |= KEY_SPACE;

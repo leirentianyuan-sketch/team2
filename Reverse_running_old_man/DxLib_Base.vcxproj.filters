@@ -41,6 +41,15 @@
     <Filter Include="src\Lib\File">
       <UniqueIdentifier>{744fa52c-2e1c-4f67-a478-d35e7c3f93d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Game\Button">
+      <UniqueIdentifier>{030c6a65-087b-4c64-bd3d-fa593c9d89f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Mouse">
+      <UniqueIdentifier>{113e1ca1-8d48-4918-80a2-34cd965df929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Mouse_Operation">
+      <UniqueIdentifier>{e07618b2-c956-4f42-a9cc-43ae889c9955}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Main.cpp">
@@ -76,6 +85,15 @@
     <ClCompile Include="Src\Lib\File\CFile.cpp">
       <Filter>src\Lib\File</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Game\Mouse\Mouse.cpp">
+      <Filter>src\Game\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Lib\Mouse_Operation\Mouse_Operation.cpp">
+      <Filter>src\Lib\Mouse_Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Button\Button.cpp">
+      <Filter>src\Game\Button</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\common.h">
@@ -110,6 +128,15 @@
     </ClInclude>
     <ClInclude Include="Src\Lib\File\CFile.h">
       <Filter>src\Lib\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Mouse\Mouse.h">
+      <Filter>src\Game\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Lib\Mouse_Operation\Mouse_Operation.h">
+      <Filter>src\Lib\Mouse_Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Button\Button.h">
+      <Filter>src\Game\Button</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

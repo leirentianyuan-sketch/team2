@@ -1,9 +1,9 @@
 #pragma once
 
 //	----------使用するビットに割り当てる----------
-//#define KEY_LCLICK		(0b1)		//	左クリック
-//#define KEY_RCLICK		(0b10)		//	右クリック
-//#define KEY_HCLICK		(0b100)		//	マウスホイールクリック
+#define KEY_LCLICK		(0b1)		//	左クリック
+#define KEY_RCLICK		(0b10)		//	右クリック
+#define KEY_HCLICK		(0b100)		//	マウスホイールクリック
 //#define KEY_UPWHEEL		(0b1000)	//	マウスホイールアップ
 //#define KEY_DOWNWHEEL	(0b10000)	//	マウスホイールダウン
 //#define KEY_MOUSE_B01	(0b100000)	//	マウスボタン１
