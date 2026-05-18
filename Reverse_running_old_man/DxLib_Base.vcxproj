@@ -144,6 +144,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\common.h" />
+    <ClInclude Include="Src\Game\Botan\Botan.h" />
+    <ClInclude Include="Src\Game\Effect\Base\EffectBase.h" />
+    <ClInclude Include="Src\Game\Effect\Botan\BotanEffect.h" />
+    <ClInclude Include="Src\Game\Effect\Mouse\MouseEffect.h" />
+    <ClInclude Include="Src\Game\Mouse\Mouse.h" />
     <ClInclude Include="Src\Game\Scene\CSceneManager.h" />
     <ClInclude Include="Src\Game\Scene\Game\CSceneGame.h" />
     <ClInclude Include="Src\Game\Scene\Result\CSceneResult.h" />

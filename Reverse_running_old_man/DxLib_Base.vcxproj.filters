@@ -41,6 +41,24 @@
     <Filter Include="src\Lib\File">
       <UniqueIdentifier>{744fa52c-2e1c-4f67-a478-d35e7c3f93d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Game\Mouse">
+      <UniqueIdentifier>{fec35dc0-1232-4bfd-a9ae-7f1810a8128a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Botan">
+      <UniqueIdentifier>{5283ddf4-4387-4c90-990b-f839bae9db92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Effect">
+      <UniqueIdentifier>{88c338d9-aa29-435b-a084-98db3cc5093c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Effect\Botan">
+      <UniqueIdentifier>{bbb3e45c-69e9-4527-ab8b-0ecc6bef60f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Effect\Mouse">
+      <UniqueIdentifier>{4119d69e-a1bf-486d-a10e-9d04943d4c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Effect\Base">
+      <UniqueIdentifier>{5ff8dd52-5685-4345-a7fb-824b2537a61a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Main.cpp">
@@ -110,6 +128,21 @@
     </ClInclude>
     <ClInclude Include="Src\Lib\File\CFile.h">
       <Filter>src\Lib\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Effect\Base\EffectBase.h">
+      <Filter>src\Game\Effect\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Effect\Mouse\MouseEffect.h">
+      <Filter>src\Game\Effect\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Effect\Botan\BotanEffect.h">
+      <Filter>src\Game\Effect\Botan</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Botan\Botan.h">
+      <Filter>src\Game\Botan</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Mouse\Mouse.h">
+      <Filter>src\Game\Mouse</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
