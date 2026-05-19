@@ -11,8 +11,8 @@
 //
 #define KEY_SPACE		(0b10000000)//	スペース
 
-#define KEY_RIGHT	(0b1)		//	矢印　右
-#define KEY_LEFT	(0b10)		//	矢印　左
+#define KEY_RIGHT	(0b1000)		//	矢印　右
+#define KEY_LEFT	(0b10000)		//	矢印　左
 
 class KEYINPUT
 {

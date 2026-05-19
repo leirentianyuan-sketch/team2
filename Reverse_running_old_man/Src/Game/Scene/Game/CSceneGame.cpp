@@ -6,12 +6,14 @@
 // ’Ç‰Á‚Ìinclude==============
 #include "../../Mouse/Mouse.h"
 #include "../../Button/Button.h"
+#include"../../Mouse/Circle/Circle.h"
 
 
 const char kari[] = { "Data/Images/Title/Title_Road.png" };
 
 Mouse mouse;
-//Button button;
+Button button;
+C_Circle circle;
 
 int SceneGame::Update()
 {
@@ -22,7 +24,9 @@ int SceneGame::Update()
 	case SceneGame::GAMESCENE_INIT:
 		
 		mouse.Init();
-		/*button.Init();*/
+		button.Init();
+		circle.Init();
+		
 
 		m_hndl = -1;
 
@@ -30,8 +34,9 @@ int SceneGame::Update()
 		break;
 	case SceneGame::GAMESCENE_LOAD:
 
-	/*	button.Load();*/
-		mouse.Load();
+		button.Load();
+		circle.Load();
+	
 		
 		if (m_hndl == -1)
 		{
@@ -53,7 +58,8 @@ int SceneGame::Update()
 	case SceneGame::GAMESCENE_MAIN:
 
 		mouse.Step();
-		/*button.Step();*/
+		circle.Step();
+		
 
 		if (KEYINPUT::IsPushTrg(KEY_SPACE))
 		{
@@ -86,7 +92,8 @@ int SceneGame::Update()
 			m_hndl = -1;
 		}
 
-		/*button.Exit();*/
+	button.Exit();
+	circle.Exit();
 
 		m_state = GAMESCENE_INIT;
 		
@@ -106,7 +113,7 @@ void SceneGame::Draw()
 		
 		//DrawRotaGraph(0.0f, 0.0f, 1.0f, 0.0f, m_hndl, TRUE);	‰¼‚Ì‰æ‘œ
 		mouse.Draw();
-		/*button.Draw();*/
+		button.Draw();
 
 		break;
 	}

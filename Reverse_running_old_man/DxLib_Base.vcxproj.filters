@@ -50,6 +50,9 @@
     <Filter Include="src\Lib\Mouse_Operation">
       <UniqueIdentifier>{e07618b2-c956-4f42-a9cc-43ae889c9955}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Game\Mouse\Circle">
+      <UniqueIdentifier>{984e3d24-6e2b-4aec-a1a5-705c526150c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Main.cpp">
@@ -137,6 +140,9 @@
     </ClInclude>
     <ClInclude Include="Src\Game\Button\Button.h">
       <Filter>src\Game\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Mouse\Circle\Circle.h">
+      <Filter>src\Game\Mouse\Circle</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

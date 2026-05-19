@@ -1,6 +1,9 @@
 #pragma once
 #include <DxLib.h>
 #include "../../Lib/Mouse_Operation/Mouse_Operation.h"
+#include "../Button/Button.h"
+
+
 
 class Mouse
 {
@@ -8,15 +11,19 @@ public:
 
 	void Init();
 
-	void Load();
-
 	void Step();
 
 	void Draw();
 
-	void Exit();
+	
+
+	void SetPos(VECTOR pos);
+	VECTOR GetPos();
+	
 
 private:
+
+	
 
 	int clickNum;
 
@@ -26,9 +33,13 @@ private:
 
 	VECTOR m_hndlPos;
 
-	const float halfX = 128.0f / 2;
+	Button m_botan;
 
 	Mouse_Operation mouse;
 
-	CIRCLE l;
+	CIRCLE m_hitcircle;
+
+	VECTOR pos ;
+
+	float half;
 };
