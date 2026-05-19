@@ -28,7 +28,7 @@ public:
 	static bool IsHit(const VECTOR& dotPos, const BOX& box);	
 
 	//	“_‚Æ‰~‚Ì“–‚½‚è”»’è
-	static bool IsHit(const VECTOR& dotPos, const CIRCLE& circle);
+	static bool IsHit(const VECTOR& dotPos, const CIRCLE& b);
 	
 	//	ŽlŠp“¯Žm‚Ì“–‚½‚è”»’è
 	static bool IsHit(const BOX& a, const BOX& b);

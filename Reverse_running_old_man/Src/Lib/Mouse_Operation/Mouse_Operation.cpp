@@ -50,3 +50,16 @@ bool Mouse_Operation::IsHitButton(const VECTOR &pos, CIRCLE& b)
 	}
 	return false;
 }
+
+bool Mouse_Operation::IsHitWindow(const VECTOR& pos, BOX& box)
+{
+	// ƒNƒŠƒbƒN‚ð‰Ÿ‚µ‚½‚©
+	if (KEYINPUT::IsPush(KEY_LCLICK) == false) return false;
+
+	bool Hit = Collision::IsHit(m_pos, box);
+	if (Hit == true)
+	{
+		return true;
+	}
+	return false;
+}

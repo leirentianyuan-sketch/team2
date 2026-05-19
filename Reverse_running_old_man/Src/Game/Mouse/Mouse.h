@@ -22,7 +22,7 @@ public:
 	
 
 private:
-
+	int flag;
 	
 
 	int clickNum;
@@ -33,13 +33,19 @@ private:
 
 	VECTOR m_hndlPos;
 
-	Button m_botan;
 
+
+	Button m_botan;
 	Mouse_Operation mouse;
 
 	CIRCLE m_hitcircle;
+	BOX m_hitWindow[2];
 
-	VECTOR pos ;
+	VECTOR pos;
 
 	float half;
+
+	VECTOR  windowPos[2];
+	float halfX[2];
+	float halfY[2];
 };

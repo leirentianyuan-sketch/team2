@@ -1,2 +1,6 @@
-﻿  CSceneGame.cpp
-  DxLib_Base.vcxproj -> D:\Users\2509403\Documents\GitHub\team2\Reverse_running_old_man\x64\Debug\Reverse_running_old_man.exe
+﻿  Button.cpp
+  Mouse.cpp
+C:\Users\leire\Desktop\GitHub\team2\Reverse_running_old_man\Src\Game\Mouse\Mouse.cpp(66,14): warning C4805: '==': 演算中の 'int' 型と 'bool' 型の混用は安全ではありません
+  CSceneGame.cpp
+  コードを生成中...
+  DxLib_Base.vcxproj -> C:\Users\leire\Desktop\GitHub\team2\Reverse_running_old_man\x64\Debug\Reverse_running_old_man.exe

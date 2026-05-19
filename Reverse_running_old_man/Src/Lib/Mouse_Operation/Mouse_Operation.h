@@ -18,6 +18,8 @@ public:
 	//何番目の物体とマウスが当たったかどうかを判断する
 	bool IsHitButton(const VECTOR& pos, CIRCLE& b);
 
+	bool IsHitWindow(const VECTOR& pos, BOX& b);
+
 	void ComHold(BOX& box, int id);
 
 	//マウスの座標
