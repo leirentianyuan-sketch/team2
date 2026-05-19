@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClInclude Include="Src\common.h" />
     <ClInclude Include="Src\Game\Button\Button.h" />
+    <ClInclude Include="Src\Game\Mouse\Circle\Circle.h" />
     <ClInclude Include="Src\Game\Mouse\Mouse.h" />
     <ClInclude Include="Src\Game\Scene\CSceneManager.h" />
     <ClInclude Include="Src\Game\Scene\Game\CSceneGame.h" />

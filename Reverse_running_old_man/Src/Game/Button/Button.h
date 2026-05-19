@@ -3,6 +3,8 @@
 
 class Button
 {
+
+
 public:
 
 	void Init();
@@ -15,16 +17,18 @@ public:
 
 	void Exit();
 
+	void SetCircle(VECTOR pos, float halfx)
+	{
+		pos = m_pos;
+		halfx = halfX;
+	}
 private:
 
 	int m_hndl;
 
 	VECTOR m_pos;
 
-	const float halfX = 128.0f / 2;
+	float halfX = 128.0f / 2;
 
-	const float halfY = 128.0f / 2;
-
-	//CIRCLE l;
 
 };
