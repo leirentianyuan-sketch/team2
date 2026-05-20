@@ -7,6 +7,8 @@ static const char hndl_Pas[][128] =
 {
 	"Data/Images/Title/1040494.jpg",
 	"Data/Images/Title/Title_Logo.png"
+	"Data/Images/Title/Ryuusei.mp4"
+	
 };
 
 int SceneTitle::Update()
